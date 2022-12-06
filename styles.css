@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #C92A2A;
+    display: flex;
+    flex-direction: column;
+}
+.hdrTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+.favicon{
+    width: 100px;
+}
+
+.hdrTop h1{
+    color: #FFFFFF;
+    font-size: 370%;
+}
+
+.signIn{
+    font-size: 25px;
+    background-color: #C92A2A;
+    border: 1px solid #F8F9FA;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #F8F9FA;
+    margin-right: 40px;
+}
+.signIn:hover{
+    background-color: #F8F9FA;
+    color: #212529;
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
+.signUp{
+    font-size: 25px;
+    background-color: #F8F9FA;
+    color: #212529;
+    border: 1px solid #F8F9FA;
+    border-radius: 10px;
+    padding: 10px 24px;
+}
+.signUp:hover{
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 35px;
+    align-items: center;
+}
+#navbar ul{
+    list-style-type: none;
+    position: relative;
+    left: 1%;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 10px 150px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+#navbar ul li a:hover{
+    color: #ff8787;
+    cursor: pointer;
+}
+.hdrBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.hdrText{
+    color: #FFFDFD;
+    font-size: 270%;
+}
+#hdrText1{
+    position: relative;
+    left: 45%;
+}
+#hdrText2{
+    position: relative;
+    left: 105%;
+}
+#hdrText3{
+    position: relative;
+    left: 150%;
+}
+.addBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+}
+.address{
+    display: inline-flex;
+    align-items: center;
+    font-size: 40px;
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #1A1A1A;
+}
+#locationIcon{
+    padding-right: 15px;
+    padding-left: 0;
+}
+.svdAdd{
+    text-decoration: underline;
+    color: #F8F9FA;
+    position: relative;
+    left: 10%;
+}
+.address:hover{
+    background-color: #212529;
+    color: #F8F9FA;
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
