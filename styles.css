@@ -155,6 +155,9 @@ main{
     border: 2px solid #212529;
     padding: 0;
 }
+.cards:hover{
+    cursor: pointer;
+}
 .imgs{
     width: 400px;
     height: 250px;
@@ -191,6 +194,10 @@ main{
     border: none;
     border-radius: 10px;
 }
+.findBtn:hover{
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
 .findImg{
     width: 800px;
 }
@@ -217,6 +224,10 @@ main{
     border: none;
     border-radius: 10px;
 }
+.orderBtn:hover{
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
 .orderImg{
     width: 800px;
 }
@@ -227,6 +238,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    margin-top: 50px;
 }
 .footerLnks:hover{
     text-decoration: underline;
