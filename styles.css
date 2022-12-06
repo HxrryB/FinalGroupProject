@@ -188,6 +188,8 @@ main{
     color: #F8F9FA;
     font-size: 40px;
     padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
 }
 .findImg{
     width: 800px;
@@ -212,7 +214,45 @@ main{
     color: #F8F9FA;
     font-size: 40px;
     padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
 }
 .orderImg{
     width: 800px;
+}
+footer{
+    background-color: #ADB5BD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.footerLnks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+.social{
+    font-size: 60px;
+}
+.inviteBtn{
+    font-size: 35px;
+    background-color: #212529;
+    color: #F8F9FA;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.arrowIcon{
+    padding-left: 30px;
+    font-size: 20px;
 }
