@@ -54,13 +54,10 @@ header{
     color: white;
     justify-content: center;
     width: 100%;
-    padding: 5px 35px;
     align-items: center;
 }
 #navbar ul{
     list-style-type: none;
-    position: relative;
-    left: 1%;
 }
 #navbar ul li{
     display: inline-block;
@@ -130,4 +127,92 @@ header{
     color: #F8F9FA;
     box-shadow: 1px 2px 12px black;
     cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#restNear{
+    padding-left: 20px;
+    font-size: 150%;
+}
+.res1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.res2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.cards{
+    background-color: #F8F9FA;
+    border: 2px solid #212529;
+    padding: 0;
+}
+.imgs{
+    width: 400px;
+    height: 250px;
+}
+.cardHeads{
+    padding-left: 10px;
+    color: #212529;
+}
+.cardDets{
+    padding-right: 60px;
+    padding-left: 30px;
+    color: #495057;
+}
+.find{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findCnt{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.findBtn{
+    background-color: #212529;
+    color: #F8F9FA;
+    font-size: 40px;
+    padding: 10px 30px;
+}
+.findImg{
+    width: 800px;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.orderCnt{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.orderBtn{
+    background-color: #212529;
+    color: #F8F9FA;
+    font-size: 40px;
+    padding: 10px 30px;
+}
+.orderImg{
+    width: 800px;
 }
