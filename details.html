@@ -14,35 +14,102 @@
   
 
 
-#searchQueryInput {
-  width:50vw;
-  height: 2.8rem;
-  background: #f5f5f5;
-  outline: none;
-  border: none;
-  border-radius: 1.625rem;
-  padding: 0 3.5rem 0 1.5rem;
-  font-size: 1rem;
 
+.bgImg{
+  width: 100%;
+  height: 300px;
+}
+.hdrCnt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.backIcon{
+  font-size: 35px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    color: white;
+}
+.search{
+  position: absolute;
+  width: 550px;
+  font-size: 25px;
+  top: 20%;
+  left: 34%;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px  ;
+}
 
-
-  
+footer{
+    background-color: #ADB5BD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+}
+.footerLnks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+.social{
+    font-size: 60px;
+}
+.inviteBtn{
+    font-size: 35px;
+    background-color: #212529;
+    color: #F8F9FA;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.inviteBtn:hover{
+    background-color: #F8F9FA;
+    color: #212529;
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
+.arrowIcon{
+    padding-left: 30px;
+    font-size: 20px;
+}
   </style>
 </head>
 
 <body style='background:lightcream,padding:100'>
 
 
-<div style="background:url('./images/bg.png');background-size:cover;width:100vw;height:200;background-position:50% 50%;display:flex;align-items:center;justify-content:center">
 
-    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search Menu" value="" />
+<div>
+  <img src="images/bg.png" alt="" class="bgImg">
+  <div class="hdrCnt">
+    <a href="menu.html">
+      <ion-icon class="backIcon" name="arrow-back-outline"></ion-icon>
+    </a>
+    
+    <input type="text" placeholder="Search" class="search">
+  </div>
+
   
- 
 </div>
+  
+  
+  
 
-<div style='background:grey;color:white;padding:20'>
+<div style='background:#495057;color:white;padding:20'>
 <h4>McDonald's</h4>
 
 <h5><i class="fa fa-star"></i> 4.0 | 548 Keele St.S</h5>
@@ -54,7 +121,7 @@
 
 
 								  <img class="card-img-top " src="./images/one.jpg" style='height:180;width:400'>
-								  <div class="card-body"> 
+								  <center class="card-body"> 
 									<h6 class="card-title">Crispy Extra Value Meal</h6>
 									<p class="card-text">Price: $17.99</p>
 									<h6>Ratings :<span class="fa fa-star checked"></span>
@@ -77,9 +144,9 @@
  
         
       
-      
+                 
 
-									
+    
 							
      		
 				
@@ -90,84 +157,39 @@
 
 
 <br><br>
-<footer style="color:black; background-color:grey; padding:20">
-
-<b>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container  text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-      
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-       
-          <p>
-            <a href="#!" class="text-reset">Get Help</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">About Us</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Signup for Free</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Add Your Restraunt</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-          <p>
-            <a href="#!" class="text-reset">Buy Gift card</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Promotions</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Restraunts near me</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Order History</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-		 <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-5">
-		   
-
-        <i class="fa fa-instagram fa-2x m-2" ></i>
-    
-        <i class="fa fa-linkedin-square fa-2x m-2"></i>
-
-        <i class="fa fa-twitter-square fa-2x m-2"></i>    
-   
-        <i class="fa fa-facebook-square fa-2x m-2"></i><br><br>
-      
-	
-	  <Button style='color:white;width:350;height:50;background-color:black'> Invite Friend, Get $10 ></Button>
-    
-  
-		   
-		   
-		   </div>
-
-       
+<footer>
+  <div class="foot1">
+      <p class="footerLnks">Get help</p>
+      <p class="footerLnks">About Us</p>
+      <p class="footerLnks">Sign up for free</p>
+      <p class="footerLnks">Add your restaurant</p>
+  </div>
+  <div class="foot2">
+      <p class="footerLnks">Buy gift card</p>
+      <p class="footerLnks">Promotions</p>
+      <p class="footerLnks">Restaurants near me</p>
+      <p class="footerLnks">Order history</p>
+  </div>
+  <div class="foot3">
+      <div class="social">
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-facebook"></ion-icon>
       </div>
-      <!-- Grid row -->
-    </div>
-  </section>
 
-
-</b>
+      <button class="inviteBtn">
+          Invite friends, get $10
+          <ion-icon class="arrowIcon" name="chevron-forward-outline"></ion-icon>
+      </button>
+  </div>
 </footer>
 
 
 
 
 
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

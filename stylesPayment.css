@@ -14,6 +14,7 @@ header h1{
     position: absolute;
     top: 3%;
     left: 2%;
+    color: white;
 }
 .backIcon:hover{    
     cursor: pointer;
@@ -114,6 +115,12 @@ footer{
     border: none;
     border-radius: 10px;
     padding-left: 20px;
+}
+.inviteBtn:hover{
+    background-color: #F8F9FA;
+    color: #212529;
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
 }
 .arrowIcon{
     padding-left: 30px;

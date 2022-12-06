@@ -264,6 +264,12 @@ footer{
     border-radius: 10px;
     padding-left: 20px;
 }
+.inviteBtn:hover{
+    background-color: #F8F9FA;
+    color: #212529;
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+}
 .arrowIcon{
     padding-left: 30px;
     font-size: 20px;
