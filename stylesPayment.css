@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #C92A2A;
+    color: #FFFFFF;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+}
+.backIcon{
+    font-size: 35px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+.backIcon:hover{    
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.method{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    font-size: 25px;
+}
+input[type=radio]{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 5%;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.imgs{
+    width: 300px;
+    height: 275px;
+}
+input[type=text]{
+    font-size: 27px;
+    border: none;
+    background-color: #D9D9D9;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#name{
+    width: 300px;
+}
+#cvv{
+    width: 60px;
+}
+.checkout{
+    font-size: 40px;
+    background-color: #212529;
+    color: #F8F9FA;
+    width: 250px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 13px;
+}
+.checkout:hover{
+    box-shadow: 1px 2px 12px black;
+    cursor: pointer;
+    background-color: #F8F9FA;
+    color: #212529;
+}
+footer{
+    background-color: #ADB5BD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+}
+.footerLnks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+.social{
+    font-size: 60px;
+}
+.inviteBtn{
+    font-size: 35px;
+    background-color: #212529;
+    color: #F8F9FA;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.arrowIcon{
+    padding-left: 30px;
+    font-size: 20px;
+}

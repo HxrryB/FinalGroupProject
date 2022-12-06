@@ -5,42 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
+    <link rel="stylesheet" href="stylesPayment.css">
 </head>
 <body>
     <header>
-        <ion-icon name="arrow-back-outline"></ion-icon>
+        <ion-icon class="backIcon" name="arrow-back-outline"></ion-icon>
         <h1>Payment</h1>
     </header>
 
     <main>
         <h2>Choose payment method</h2>
 
-        <form>
-            <input type="radio" name="visa">
-            <label for="visa">VISA</label>
-
-            <input type="radio" name="paypal">
-            <label for="paypal">PAYPAL</label>
+        <form class="method">
+            <div class="visa">
+                <input type="radio" id="visa" name="method">
+                <label for="visa">VISA</label>
+            </div>
+            <div class="paypal">
+                <input type="radio" id="paypal" name="method">
+                <label for="paypal">PAYPAL</label>
+            </div>
         </form>
         
         <div class="images">
-            <img src="paypal.png" alt="">
-            <img src="american-express.png" alt="">
-            <img src="visa.png" alt="">
+            <img class="imgs" src="paypal.png" alt="">
+            <img class="imgs" src="american-express.png" alt="">
+            <img class="imgs" src="visa.png" alt="">
         </div>
 
-        <form>
-            <input type="text">
+        <form class="form2">
+            <input id="name" type="text" value="Harshit Bhardwaj">
 
             <div class="other">
-                <input type="text">
-                <input type="text">
+                <input id="number" type="text" value="XXXX-XXXX-XXXX-XXXX">
+                <input id="cvv" type="text" value="CVV">
             </div>
         </form>
 
-        <button class="checkout">
-            Checkout
-        </button>
+        <button class="checkout">Checkout</button>
     </main>
 
     <footer>
